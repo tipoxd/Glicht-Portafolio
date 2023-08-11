@@ -52,8 +52,8 @@ export default function NavBar() {
               JR
             </a>
           </div>
-          <div className="navbar-center hidden lg:flex ">
-            <ul className="menu menu-horizontal px-1">
+          <div className="navbar-end hidden lg:flex ">
+            <ul className="menu menu-horizontal px-1 text-lg">
               <li>
                 <Link to="skills" smooth={true} duration={500}>
                   Habilidades

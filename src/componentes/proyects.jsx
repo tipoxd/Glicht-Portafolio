@@ -16,7 +16,7 @@ export default function Proyect(
         <h3 className="font-bold text-2xl font-sans text-emerald-600">
           {data.Titulo}
         </h3>
-        <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 p-5">
+        <section className="[ mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8  ] [ md:p-5 ] [ lg:p-5 ]">
           {data.Items.map((item) => (
             <Card_Proyecto
               key={item.id}

@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.levitate {
+    transform: translateY(-50px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .levitate:hover {
+    transform: translateY(-100px);
+  }

@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
           <div class="[  w-full flex-nowrap items-center justify-center ] [ md:flex md:w-2/4 ] [ lg:flex lg:w-2/4 ]  ">
             <img
-              class="[ mx-auto h-full rounded-full object-cover ] [ md:h-96 ] [ lg:h-96 ] "
+              class="[ levitate mx-auto h-full rounded-full object-cover ] [ md:h-96 ] [ lg:h-96 ] "
               src="https://unavatar.io/youtube/Glicht"
               alt=""
             />
