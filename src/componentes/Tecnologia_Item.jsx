@@ -7,7 +7,7 @@ export const Tecnologia_Item = (data = { Titulo: "", Src: "" }) => {
         <img
           src={`${data.Src}`}
           alt={`${data.Titulo}`}
-          className="rounded-full w-32 h-32 object-cover"
+          className=" [ w-[100px] h-[100px] rounded-full  object-cover ] [ md:w-[120px] md:h-[120px] ] [ lg:w-[120px] lg:h-[120px] ]"
         />
         <h5 className="font-semibold group-hover:text-emerald-600 group-hover:font-bold">{data.Titulo}</h5>
       </li>

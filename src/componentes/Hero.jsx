@@ -14,24 +14,24 @@ export default function Hero() {
   return (
     <>
       <section class="relative ">
-        <div class="[ flex mx-auto p-5  w-full ] [ md:w-3/4 ] [ lg:w-3/4 ]">
-          <div class="w-2/4  p-5">
-            <h1 class="text-3xl font-bold leading-tight text-emerald-600 sm:text-4xl md:text-5xl xl:text-6xl">
-              ¡Hola!
+        <div class="[ flex flex-col-reverse    mx-auto p-5  w-full ] [ md:w-3/4 md:flex-row ] [ lg:w-3/4 lg:flex-row ]">
+          <div class="[ w-full    p-5 ] [ md:w-2/4 ] [ lg:w-2/4 ]">
+            <h1 class="text-3xl font-bold leading-tight text-primary sm:text-4xl md:text-5xl xl:text-6xl">
+              ¡Hola! 👋
             </h1>
-            <p class="mt-8 text-black">
+            <p class="mt-8 text-white font-semibold text-2xl">
               Me llamo
-              <span class=" text-lg font-bold text-emerald-600"> Jesús Rosales</span> tengo
-              {" " + calcularEdad()}
-              <span id="edad" class="text-emerald-600 font-bold text-lg"></span> años y estoy
+              <span class="   font-bold text-primary"> Jesús Rosales</span> tengo
+               
+              <span id="edad" class="text-primary font-bold  "> {calcularEdad()}</span> años y estoy
               comprometido con ayudar a mis clientes a crear la presencia en
               línea que desean. Soy un apasionado de la{" "}
                tecnología y siempre me aseguro de
               estar al día con las últimas tendencias y herramientas en{" "}
-              <span class="font-bold text-emerald-600">programación y diseño web.</span> Estoy
+              <span class="font-bold text-primary">programación y diseño web.</span> Estoy
               aquí para ayudarte a alcanzar tus objetivos en línea de una manera
               efectiva y atractiva.{" "}
-              <span class="font-bold text-emerald-600">
+              <span class="font-bold text-primary">
                 ¡Contáctame para que podamos empezar a trabajar juntos!
               </span>
               <ul className="flex flex-nowrap">
@@ -47,7 +47,7 @@ export default function Hero() {
                       viewBox="0 0 24 24"
                       style={{ enableBackground: "new 0 0 512 512" }}
                       xmlSpace="preserve"
-                      className="w-10 h-10 hover:scale-125 transition-all hover:fill-emerald-600"
+                      className="w-10 h-10 hover:scale-125 transition-all hover:fill-emerald-600 fill-white"
                     >
                       <g>
                         <path
@@ -62,9 +62,9 @@ export default function Hero() {
               </ul>
             </p>
           </div>
-          <div class="flex w-2/4 flex-nowrap items-center justify-center  ">
+          <div class="[  w-full flex-nowrap items-center justify-center ] [ md:flex md:w-2/4 ] [ lg:flex lg:w-2/4 ]  ">
             <img
-              class="h-96 rounded-full object-cover"
+              class="[ mx-auto h-full rounded-full object-cover ] [ md:h-96 ] [ lg:h-96 ] "
               src="https://unavatar.io/youtube/Glicht"
               alt=""
             />

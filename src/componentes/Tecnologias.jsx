@@ -1,15 +1,16 @@
 import React from "react";
 import { Tecnologia_Item } from "./Tecnologia_Item";
 export const Tecnologias = (data = { Titulo_Categoria: "" }) => {
+   
   return (
-    <div>
-      <div className="w-full md:w-1/2 mx-auto rounded-lg bg-white px-8 py-4 shadow-md m-4">
+    <div id="skills">
+      <div className="w-full mx-auto rounded-lg bg-base px-8 py-4  m-4 [] [ md:w-3/4 ] ">
         <div className="px-1 py-4">
-          <h3 className="font-bold text-2xl font-sans text-emerald-600">
-            {data.Titulo_Categoria}
+          <h3 className="font-bold text-2xl font-sans text-primary">
+            {data.Titulo_Categoria }
           </h3>
         </div>
-        <ul className="grid grid-cols-4 gap-2 px-1">
+        <ul className=" [ grid gap-4 px-1 grid-cols-3 ] [ md:grid-cols-4 ] [ lg:grid-cols-4 ]">
           <Tecnologia_Item
             Titulo="Html"
             Src="https://cdn-icons-png.flaticon.com/512/919/919827.png"
