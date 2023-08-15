@@ -19,7 +19,7 @@ export default function Hero() {
         <div class="[ flex flex-col-reverse    mx-auto p-5  w-full ] [ md:w-3/4 md:flex-row ] [ lg:w-3/4 lg:flex-row ]">
           <div class="[ w-full    p-5 ] [ md:w-2/4 ] [ lg:w-2/4 ]">
             <h1 class="text-3xl font-bold leading-tight text-primary sm:text-4xl md:text-5xl xl:text-6xl">
-              ¡Hola! 👋
+              Hey! 👋
             </h1>
             <p class="mt-8 text-white font-semibold text-2xl">
               Me llamo
