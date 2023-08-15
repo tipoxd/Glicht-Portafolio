@@ -10,6 +10,7 @@ import { Tecnologias } from "./componentes/Tecnologias";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { BrowserRouter as Router } from "react-router-dom";
+import { Footer } from "./componentes/footer";
 // ..
 AOS.init();
 function App() {
@@ -91,7 +92,9 @@ function App() {
             Titulo="Proyectos Trabajados"
             Items={proyectos_trabajados}
           />
+
         </div>
+        <Footer />
       </div>
     </>
   );

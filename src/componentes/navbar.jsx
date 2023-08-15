@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 export default function NavBar() {
   return (
     <>
-      <nav className="w-full">
+      <nav className="w-full fixed z-20">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -27,12 +27,22 @@ export default function NavBar() {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
+                  <Link to="root" smooth={true} duration={500}>
+                    Inicio
+                  </Link>
+                </li>
+                <li>
+                  <Link to="footer" smooth={true} duration={500}>
+                    Contactame
+                  </Link>
+                </li>
+                <li>
                   <Link to="skills" smooth={true} duration={500}>
                     Habilidades
                   </Link>
                 </li>
                 <li>
-                  <a>Parent</a>
+                  <a>Proyectos</a>
                   <ul className="p-2">
                     <li>
                       <Link to="person_proyects" smooth={true} duration={500}>
@@ -48,12 +58,23 @@ export default function NavBar() {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl text-primary font-bold   ">
+            <a className="btn btn-ghost normal-case text-2xl  font-bold   ">
               JR
             </a>
+            <label>Jesus Rosales</label>
           </div>
           <div className="navbar-end hidden lg:flex ">
             <ul className="menu menu-horizontal px-1 text-lg">
+              <li>
+                <Link to="root" smooth={true} duration={500}>
+                  Inicio
+                </Link>
+              </li>
+              <li>
+                <Link to="footer" smooth={true} duration={500}>
+                  Contactame
+                </Link>
+              </li>
               <li>
                 <Link to="skills" smooth={true} duration={500}>
                   Habilidades
