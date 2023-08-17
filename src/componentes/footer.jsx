@@ -26,7 +26,7 @@ export const Footer = () => {
                     <a className="btn btn-ghost normal-case text-2xl  font-bold   ">
                         JR
                     </a>
-                    <p>Jesus Rosales </p>
+                    <p className='whitespace-nowrap'>Jesus Rosales </p>
                 </div>
                 <div className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">

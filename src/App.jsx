@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { BrowserRouter as Router } from "react-router-dom";
 import { Footer } from "./componentes/footer";
+import { Recursos_father } from "./componentes/Recursos_father";
 // ..
 AOS.init();
 function App() {
@@ -76,7 +77,7 @@ function App() {
   ];
   return (
     <>
-      <div style={{ fontFamily: '"Darker Grotesque", "Roboto", sans-serif' }}>
+      <div style={{ fontFamily: '"Darker Grotesque", sans-serif' }}>
         <NavBar />
         <div className="flex flex-nowrap gap-10 flex-col">
           <Hero />
@@ -93,6 +94,7 @@ function App() {
             Items={proyectos_trabajados}
           />
 
+          <Recursos_father />
         </div>
         <Footer />
       </div>

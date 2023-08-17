@@ -61,7 +61,7 @@ export default function NavBar() {
             <a className="btn btn-ghost normal-case text-2xl  font-bold   ">
               JR
             </a>
-            <label>Jesus Rosales</label>
+            <label className="whitespace-nowrap">Jesus Rosales</label>
           </div>
           <div className="navbar-end hidden lg:flex ">
             <ul className="menu menu-horizontal px-1 text-lg">
