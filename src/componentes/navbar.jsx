@@ -32,29 +32,40 @@ export default function NavBar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="footer" smooth={true} duration={500}>
-                    Contactame
-                  </Link>
-                </li>
-                <li>
                   <Link to="skills" smooth={true} duration={500}>
                     Habilidades
                   </Link>
                 </li>
+                <li className="z-[20]" tabIndex={1}>
+                  <details>
+                    <summary>Proyectos</summary>
+                    <ul className="p-2">
+                      <li>
+                        <Link to="person_proyects" smooth={true} duration={500}>
+                          Personales
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="workedup_proyects"
+                          smooth={true}
+                          duration={500}
+                        >
+                          Trabajados
+                        </Link>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
                 <li>
-                  <a>Proyectos</a>
-                  <ul className="p-2">
-                    <li>
-                      <Link to="person_proyects" smooth={true} duration={500}>
-                        Personales
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="workedup_proyects" smooth={true} duration={500}>
-                        Trabajados
-                      </Link>
-                    </li>
-                  </ul>
+                  <Link to="Recursos" smooth={true} duration={500}>
+                    Recursos
+                  </Link>
+                </li>
+                <li>
+                  <Link to="footer" smooth={true} duration={500}>
+                    Contactame
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -68,11 +79,6 @@ export default function NavBar() {
               <li>
                 <Link to="root" smooth={true} duration={500}>
                   Inicio
-                </Link>
-              </li>
-              <li>
-                <Link to="footer" smooth={true} duration={500}>
-                  Contactame
                 </Link>
               </li>
               <li>
@@ -96,6 +102,16 @@ export default function NavBar() {
                     </li>
                   </ul>
                 </details>
+              </li>
+              <li>
+                <Link to="Recursos" smooth={true} duration={500}>
+                  Recursos
+                </Link>
+              </li>
+              <li>
+                <Link to="footer" smooth={true} duration={500}>
+                  Contactame
+                </Link>
               </li>
             </ul>
           </div>

@@ -57,14 +57,14 @@ export const Recursos_father = () => {
   ];
 
   return (
-    <div>
+    <div id="Recursos">
       <div className="w-full mx-auto rounded-lg bg-base px-8 py-4  m-4 [] [ md:w-3/4 ] ">
         <div className="px-1 py-4">
           <h3 className="font-bold text-2xl font-sans text-primary">
             Recursos
           </h3>
         </div>
-        <ul className=" [ grid gap-4 px-1 grid-cols-3 ] [ md:grid-cols-3 ] [ lg:grid-cols-3 ]">
+        <ul className=" [ grid gap-4 px-1 grid-cols-2 ] [ md:grid-cols-3 ] [ lg:grid-cols-3 ]">
           <li>
             <Recursos_child Titulo="Svg" Item_Info={svg_arr} />
           </li>
