@@ -59,6 +59,12 @@ function App() {
       src: "https://elreydelazar.com/img/icon_page.png",
       url: "https://elreydelazar.com/",
     },
+    {
+      titulo: "LottoRegalito",
+      descripcion: "Sorteos de Animalitos",
+      src: "https://lottoregalito.com/img/logo-color-solo.png",
+      url: "https://lottoregalito.com/",
+    },
   ];
 
   let proyectos_personales = [
